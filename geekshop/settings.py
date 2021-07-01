@@ -134,3 +134,11 @@ AUTH_USER_MODEL = 'users.User'
 LOGIN_URL = '/users/login/'
 LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/'
+
+# EMAIL
+DOMAIN_NAME = 'http://localhost:8000'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'forthe.testing.acc@gmail.com'
+EMAIL_HOST_PASSWORD = '123grad999'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
