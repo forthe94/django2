@@ -15,18 +15,26 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from . import views
 from django.conf import settings
 from django.conf.urls.static import static
+from authapp import urls as authapp_urls
+from mainapp import urls as mainapp_urls
+from adminapp import urls as adminapp_urls
+from basketapp import urls as basketapp_urls
 
-from products.views import IndexView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', IndexView.as_view(), name='index'),
-    path('products/', include('products.urls', namespace='products')),
-    path('users/', include('users.urls', namespace='users')),
-    path('baskets/', include('baskets.urls', namespace='baskets')),
-    path('admin-staff/', include('admins.urls', namespace='admins')),
+    path('admin_staff/', include(adminapp_urls, namespace='admin_staff'), name='admin_staff'),
+
+    path('auth/', include(authapp_urls, namespace='auth'), name='auth'),
+    path('products/', include(mainapp_urls, namespace='products'), name='products'),
+    path('basket/', include(basketapp_urls, namespace='basket'), name='basket'),
+
+    path('', views.index, name='index'),
+    path('contacts/', views.contacts, name='contacts'),
+    path('', include('social_django.urls', namespace='social')),
 ]
 
 if settings.DEBUG:
