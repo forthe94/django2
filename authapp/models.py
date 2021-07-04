@@ -67,6 +67,10 @@ class UserProfile(models.Model):
     gender = models.CharField(verbose_name='пол', max_length=1, \
                               choices=GENDER_CHOICES, blank=True)
 
+    vksite = models.CharField(verbose_name='vk url', max_length=128, \
+                               blank=True)
+
+
     @receiver(post_save, sender=User)
     def create_user_profile(sender, instance, created, **kwargs):
         if created:
