@@ -32,16 +32,16 @@ class User(AbstractUser):
             self.activation_key_expires = now() + timedelta(hours=48)
             
             # send activated email
-            send_mail(
-                'Email from django',
-                f"""
-                Активируйте свой аккаунт
-                http://127.0.0.1:8000/auth/activate/{self.activation_key}/
-                """,
-                settings.EMAIL_HOST_USER,
-                [self.email],
-                fail_silently=False
-            )
+            # send_mail(
+            #     'Email from django',
+            #     f"""
+            #     Активируйте свой аккаунт
+            #     http://127.0.0.1:8000/auth/activate/{self.activation_key}/
+            #     """,
+            #     settings.EMAIL_HOST_USER,
+            #     [self.email],
+            #     fail_silently=False
+            # )
         super().save(*args, **kwargs)
 
 
