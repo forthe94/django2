@@ -10,7 +10,7 @@ def index(request):
         basket = Basket.objects.filter(user=request.user)
 
     title = 'geekshop'
-    products = Product.objects.all()[:4]
+    products = Product.objects.all().select_related('category')[:4]
 
     context = {
         'products': products,
