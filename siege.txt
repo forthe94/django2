@@ -1,0 +1,5366 @@
+GET /%09geekshop.views.index%09index HTTP/1.1
+Host: 127.0.0.1:8000
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 404 Not Found
+Date: Tue, 10 Aug 2021 12:10:17 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html
+Server-Timing: TimerPanel_utime;dur=6.171000000000149;desc="User CPU time", TimerPanel_stime;dur=7.338000000000067;desc="System CPU time", TimerPanel_total;dur=13.509000000000215;desc="Total CPU time", TimerPanel_total_time;dur=14.042854309082031;desc="Elapsed time", SQLPanel_sql_time;dur=0;desc="SQL 0 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 14907
+Vary: Cookie
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+
+
+GET /admin/%09django.contrib.admin.sites.index%09admin:index HTTP/1.1
+Host: 127.0.0.1:8000
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 302 Found
+Date: Tue, 10 Aug 2021 12:10:17 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Location: /admin/login/?next=/admin/%2509django.contrib.admin.sites.index%2509admin%3Aindex
+Expires: Tue, 10 Aug 2021 12:10:17 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Server-Timing: TimerPanel_utime;dur=11.029999999999873;desc="User CPU time", TimerPanel_stime;dur=0.06599999999989947;desc="System CPU time", TimerPanel_total;dur=11.095999999999773;desc="Total CPU time", TimerPanel_total_time;dur=11.63029670715332;desc="Elapsed time", SQLPanel_sql_time;dur=0.032901763916015625;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 0
+Vary: Cookie
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+
+GET /admin/login/?next=/admin/%2509django.contrib.admin.sites.index%2509admin%3Aindex HTTP/1.1
+Host: 127.0.0.1:8000
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:18 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Expires: Tue, 10 Aug 2021 12:10:18 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Vary: Cookie
+Server-Timing: TimerPanel_utime;dur=21.95500000000017;desc="User CPU time", TimerPanel_stime;dur=0.0;desc="System CPU time", TimerPanel_total;dur=21.95500000000017;desc="Total CPU time", TimerPanel_total_time;dur=22.616147994995117;desc="Elapsed time", SQLPanel_sql_time;dur=0.032901763916015625;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 13292
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Set-Cookie:  csrftoken=JBZFTuTLeVijg1ITh4IiHqigQLy04NsstcVAkYWum9ertuN74TiIeY4shiR98xGW; expires=Tue, 09 Aug 2022 12:10:18 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+
+
+GET /static/debug_toolbar/js/toolbar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:18 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 10452
+Content-Disposition: inline; filename="toolbar.js"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/toolbar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:18 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 11461
+Content-Disposition: inline; filename="toolbar.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/print.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:18 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 43
+Content-Disposition: inline; filename="print.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/admin/css/responsive.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:18 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 18545
+Content-Disposition: inline; filename="responsive.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/login.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:18 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 939
+Content-Disposition: inline; filename="login.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/js/nav_sidebar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:18 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 1360
+Content-Disposition: inline; filename="nav_sidebar.js"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/nav_sidebar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:18 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 2271
+Content-Disposition: inline; filename="nav_sidebar.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/base.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:18 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 19513
+Content-Disposition: inline; filename="base.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /admin/%3Capp_label%3E/%09django.contrib.admin.sites.app_index%09admin:app_list HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 302 Found
+Date: Tue, 10 Aug 2021 12:10:19 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Location: /admin/login/?next=/admin/%253Capp_label%253E/%2509django.contrib.admin.sites.app_index%2509admin%3Aapp_list
+Expires: Tue, 10 Aug 2021 12:10:19 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Server-Timing: TimerPanel_utime;dur=13.119000000001435;desc="User CPU time", TimerPanel_stime;dur=3.6480000000000956;desc="System CPU time", TimerPanel_total;dur=16.76700000000153;desc="Total CPU time", TimerPanel_total_time;dur=17.81153678894043;desc="Elapsed time", SQLPanel_sql_time;dur=0.08893013000488281;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 0
+Vary: Cookie
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+
+GET /admin/login/?next=/admin/%253Capp_label%253E/%2509django.contrib.admin.sites.app_index%2509admin%3Aapp_list HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:19 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Expires: Tue, 10 Aug 2021 12:10:19 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Vary: Cookie
+Server-Timing: TimerPanel_utime;dur=17.896000000000356;desc="User CPU time", TimerPanel_stime;dur=3.742000000000134;desc="System CPU time", TimerPanel_total;dur=21.63800000000049;desc="Total CPU time", TimerPanel_total_time;dur=22.275209426879883;desc="Elapsed time", SQLPanel_sql_time;dur=0.034809112548828125;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 13342
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Set-Cookie:  csrftoken=h20ASyp1XYlT1iXEvavRnLilpVjPFdJjNWF0tbZKTqfWFH9afiaxyDvpyhECh7jI; expires=Tue, 09 Aug 2022 12:10:19 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+
+
+GET /static/debug_toolbar/js/toolbar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:19 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 10452
+Content-Disposition: inline; filename="toolbar.js"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/toolbar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:19 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 11461
+Content-Disposition: inline; filename="toolbar.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/print.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:19 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 43
+Content-Disposition: inline; filename="print.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/admin/css/responsive.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:19 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 18545
+Content-Disposition: inline; filename="responsive.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/login.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:19 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 939
+Content-Disposition: inline; filename="login.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/js/nav_sidebar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:19 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 1360
+Content-Disposition: inline; filename="nav_sidebar.js"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/nav_sidebar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:19 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 2271
+Content-Disposition: inline; filename="nav_sidebar.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/base.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:19 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 19513
+Content-Disposition: inline; filename="base.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /admin/%3Curl%3E%09django.contrib.admin.sites.catch_all_view HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 302 Found
+Date: Tue, 10 Aug 2021 12:10:20 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Location: /admin/login/?next=/admin/%253Curl%253E%2509django.contrib.admin.sites.catch_all_view
+Expires: Tue, 10 Aug 2021 12:10:20 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Server-Timing: TimerPanel_utime;dur=16.757000000000133;desc="User CPU time", TimerPanel_stime;dur=0.06599999999989947;desc="System CPU time", TimerPanel_total;dur=16.823000000000032;desc="Total CPU time", TimerPanel_total_time;dur=17.85564422607422;desc="Elapsed time", SQLPanel_sql_time;dur=0.0514984130859375;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 0
+Vary: Cookie
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+
+GET /admin/login/?next=/admin/%253Curl%253E%2509django.contrib.admin.sites.catch_all_view HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:20 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Expires: Tue, 10 Aug 2021 12:10:20 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Vary: Cookie
+Server-Timing: TimerPanel_utime;dur=24.825999999999127;desc="User CPU time", TimerPanel_stime;dur=0.05699999999997374;desc="System CPU time", TimerPanel_total;dur=24.8829999999991;desc="Total CPU time", TimerPanel_total_time;dur=25.606155395507812;desc="Elapsed time", SQLPanel_sql_time;dur=0.04458427429199219;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 13300
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Set-Cookie:  csrftoken=1RiTxSUvGYTlW8ia36Hg6pvjIaS1nPyYSoifJlkBJen3TE5vyd3o5ySlGSLdnKPA; expires=Tue, 09 Aug 2022 12:10:20 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+
+
+GET /static/debug_toolbar/js/toolbar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:20 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 10452
+Content-Disposition: inline; filename="toolbar.js"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/toolbar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:20 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 11461
+Content-Disposition: inline; filename="toolbar.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/print.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:20 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 43
+Content-Disposition: inline; filename="print.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/admin/css/responsive.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:20 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 18545
+Content-Disposition: inline; filename="responsive.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/login.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:20 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 939
+Content-Disposition: inline; filename="login.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/js/nav_sidebar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:20 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 1360
+Content-Disposition: inline; filename="nav_sidebar.js"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/nav_sidebar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:20 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 2271
+Content-Disposition: inline; filename="nav_sidebar.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/base.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:20 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 19513
+Content-Disposition: inline; filename="base.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /admin/auth/group/%09django.contrib.admin.options.changelist_view%09admin:auth_group_changelist HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 302 Found
+Date: Tue, 10 Aug 2021 12:10:20 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Location: /admin/login/?next=/admin/auth/group/%2509django.contrib.admin.options.changelist_view%2509admin%3Aauth_group_changelist
+Expires: Tue, 10 Aug 2021 12:10:20 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Server-Timing: TimerPanel_utime;dur=12.164999999999537;desc="User CPU time", TimerPanel_stime;dur=0.0;desc="System CPU time", TimerPanel_total;dur=12.164999999999537;desc="Total CPU time", TimerPanel_total_time;dur=13.074398040771484;desc="Elapsed time", SQLPanel_sql_time;dur=0.04220008850097656;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 0
+Vary: Cookie
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+
+GET /admin/login/?next=/admin/auth/group/%2509django.contrib.admin.options.changelist_view%2509admin%3Aauth_group_changelist HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:20 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Expires: Tue, 10 Aug 2021 12:10:20 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Vary: Cookie
+Server-Timing: TimerPanel_utime;dur=82.94800000000002;desc="User CPU time", TimerPanel_stime;dur=0.0;desc="System CPU time", TimerPanel_total;dur=82.94800000000002;desc="Total CPU time", TimerPanel_total_time;dur=83.81009101867676;desc="Elapsed time", SQLPanel_sql_time;dur=0.038623809814453125;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 13371
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Set-Cookie:  csrftoken=HUW50ny0ofNKgyfbFUzd4LjCLOLThOTiAWFRJclzXQkAvZuFVmU19xC8BYv4bd4L; expires=Tue, 09 Aug 2022 12:10:20 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+
+
+GET /static/debug_toolbar/js/toolbar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:20 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 10452
+Content-Disposition: inline; filename="toolbar.js"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/toolbar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:20 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 11461
+Content-Disposition: inline; filename="toolbar.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/print.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:20 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 43
+Content-Disposition: inline; filename="print.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/admin/css/responsive.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:20 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 18545
+Content-Disposition: inline; filename="responsive.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/login.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:20 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 939
+Content-Disposition: inline; filename="login.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/js/nav_sidebar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:20 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 1360
+Content-Disposition: inline; filename="nav_sidebar.js"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/nav_sidebar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:20 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 2271
+Content-Disposition: inline; filename="nav_sidebar.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/base.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:20 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 19513
+Content-Disposition: inline; filename="base.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /admin/auth/group/%3Cpath:object_id%3E/%09django.views.generic.base.RedirectView HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 302 Found
+Date: Tue, 10 Aug 2021 12:10:21 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Location: /admin/login/?next=/admin/auth/group/%253Cpath%3Aobject_id%253E/%2509django.views.generic.base.RedirectView
+Expires: Tue, 10 Aug 2021 12:10:21 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Server-Timing: TimerPanel_utime;dur=11.898000000000408;desc="User CPU time", TimerPanel_stime;dur=4.026000000000085;desc="System CPU time", TimerPanel_total;dur=15.924000000000493;desc="Total CPU time", TimerPanel_total_time;dur=17.040491104125977;desc="Elapsed time", SQLPanel_sql_time;dur=0.05602836608886719;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 0
+Vary: Cookie
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+
+GET /admin/login/?next=/admin/auth/group/%253Cpath%3Aobject_id%253E/%2509django.views.generic.base.RedirectView HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:21 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Expires: Tue, 10 Aug 2021 12:10:21 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Vary: Cookie
+Server-Timing: TimerPanel_utime;dur=20.769999999998845;desc="User CPU time", TimerPanel_stime;dur=4.124999999999934;desc="System CPU time", TimerPanel_total;dur=24.89499999999878;desc="Total CPU time", TimerPanel_total_time;dur=25.498390197753906;desc="Elapsed time", SQLPanel_sql_time;dur=0.033855438232421875;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 13343
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Set-Cookie:  csrftoken=gbMDPiBgRB5XqKU0KPFH8kMy4EV7mNRcMwgBbdAy9UCIqKH1DsDxlcFOcB1N6H98; expires=Tue, 09 Aug 2022 12:10:21 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+
+
+GET /static/debug_toolbar/js/toolbar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:21 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 10452
+Content-Disposition: inline; filename="toolbar.js"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/toolbar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:21 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 11461
+Content-Disposition: inline; filename="toolbar.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/print.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:21 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 43
+Content-Disposition: inline; filename="print.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/admin/css/responsive.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:21 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 18545
+Content-Disposition: inline; filename="responsive.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/login.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:21 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 939
+Content-Disposition: inline; filename="login.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/js/nav_sidebar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:21 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 1360
+Content-Disposition: inline; filename="nav_sidebar.js"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/nav_sidebar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:21 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 2271
+Content-Disposition: inline; filename="nav_sidebar.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/base.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:21 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 19513
+Content-Disposition: inline; filename="base.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /admin/auth/group/%3Cpath:object_id%3E/change/%09django.contrib.admin.options.change_view%09admin:auth_group_change HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 302 Found
+Date: Tue, 10 Aug 2021 12:10:21 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Location: /admin/login/?next=/admin/auth/group/%253Cpath%3Aobject_id%253E/change/%2509django.contrib.admin.options.change_view%2509admin%3Aauth_group_change
+Expires: Tue, 10 Aug 2021 12:10:21 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Server-Timing: TimerPanel_utime;dur=9.560999999999709;desc="User CPU time", TimerPanel_stime;dur=3.7119999999999376;desc="System CPU time", TimerPanel_total;dur=13.272999999999646;desc="Total CPU time", TimerPanel_total_time;dur=13.765096664428711;desc="Elapsed time", SQLPanel_sql_time;dur=0.03933906555175781;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 0
+Vary: Cookie
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+
+GET /admin/login/?next=/admin/auth/group/%253Cpath%3Aobject_id%253E/change/%2509django.contrib.admin.options.change_view%2509admin%3Aauth_group_change HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:21 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Expires: Tue, 10 Aug 2021 12:10:21 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Vary: Cookie
+Server-Timing: TimerPanel_utime;dur=20.996000000000237;desc="User CPU time", TimerPanel_stime;dur=0.0;desc="System CPU time", TimerPanel_total;dur=20.996000000000237;desc="Total CPU time", TimerPanel_total_time;dur=21.724462509155273;desc="Elapsed time", SQLPanel_sql_time;dur=0.053882598876953125;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 13416
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Set-Cookie:  csrftoken=zMBbSflP355Xty0bDBBHRx4LVN5iFy8NwspND2C3UASi9OaWKRc86ulegDLxFwNq; expires=Tue, 09 Aug 2022 12:10:21 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+
+
+GET /static/debug_toolbar/js/toolbar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:21 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 10452
+Content-Disposition: inline; filename="toolbar.js"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/toolbar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:21 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 11461
+Content-Disposition: inline; filename="toolbar.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/print.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:21 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 43
+Content-Disposition: inline; filename="print.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/admin/css/responsive.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:21 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 18545
+Content-Disposition: inline; filename="responsive.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/login.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:21 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 939
+Content-Disposition: inline; filename="login.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/js/nav_sidebar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:21 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 1360
+Content-Disposition: inline; filename="nav_sidebar.js"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/nav_sidebar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:21 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 2271
+Content-Disposition: inline; filename="nav_sidebar.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/base.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:21 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 19513
+Content-Disposition: inline; filename="base.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /admin/auth/group/%3Cpath:object_id%3E/delete/%09django.contrib.admin.options.delete_view%09admin:auth_group_delete HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 302 Found
+Date: Tue, 10 Aug 2021 12:10:22 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Location: /admin/login/?next=/admin/auth/group/%253Cpath%3Aobject_id%253E/delete/%2509django.contrib.admin.options.delete_view%2509admin%3Aauth_group_delete
+Expires: Tue, 10 Aug 2021 12:10:22 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Server-Timing: TimerPanel_utime;dur=11.59999999999961;desc="User CPU time", TimerPanel_stime;dur=3.98300000000007;desc="System CPU time", TimerPanel_total;dur=15.58299999999968;desc="Total CPU time", TimerPanel_total_time;dur=16.337871551513672;desc="Elapsed time", SQLPanel_sql_time;dur=0.06699562072753906;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 0
+Vary: Cookie
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+
+GET /admin/login/?next=/admin/auth/group/%253Cpath%3Aobject_id%253E/delete/%2509django.contrib.admin.options.delete_view%2509admin%3Aauth_group_delete HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:22 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Expires: Tue, 10 Aug 2021 12:10:22 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Vary: Cookie
+Server-Timing: TimerPanel_utime;dur=27.8299999999998;desc="User CPU time", TimerPanel_stime;dur=0.4649999999999377;desc="System CPU time", TimerPanel_total;dur=28.29499999999974;desc="Total CPU time", TimerPanel_total_time;dur=25.812864303588867;desc="Elapsed time", SQLPanel_sql_time;dur=0.034809112548828125;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 13416
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Set-Cookie:  csrftoken=zgQJbb0b021hbbBLboO3nqL2ZEZ0anX9FmfbtmR5alAcbsNSVfhv3EAP8NF0NUAO; expires=Tue, 09 Aug 2022 12:10:22 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+
+
+GET /static/debug_toolbar/js/toolbar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:22 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 10452
+Content-Disposition: inline; filename="toolbar.js"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/toolbar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:22 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 11461
+Content-Disposition: inline; filename="toolbar.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/print.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:22 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 43
+Content-Disposition: inline; filename="print.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/admin/css/responsive.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:22 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 18545
+Content-Disposition: inline; filename="responsive.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/login.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:22 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 939
+Content-Disposition: inline; filename="login.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/js/nav_sidebar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:22 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 1360
+Content-Disposition: inline; filename="nav_sidebar.js"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/nav_sidebar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:22 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 2271
+Content-Disposition: inline; filename="nav_sidebar.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/base.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:22 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 19513
+Content-Disposition: inline; filename="base.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /admin/auth/group/%3Cpath:object_id%3E/history/%09django.contrib.admin.options.history_view%09admin:auth_group_history HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 302 Found
+Date: Tue, 10 Aug 2021 12:10:22 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Location: /admin/login/?next=/admin/auth/group/%253Cpath%3Aobject_id%253E/history/%2509django.contrib.admin.options.history_view%2509admin%3Aauth_group_history
+Expires: Tue, 10 Aug 2021 12:10:22 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Server-Timing: TimerPanel_utime;dur=17.431000000000196;desc="User CPU time", TimerPanel_stime;dur=7.73899999999994;desc="System CPU time", TimerPanel_total;dur=25.170000000000137;desc="Total CPU time", TimerPanel_total_time;dur=24.159908294677734;desc="Elapsed time", SQLPanel_sql_time;dur=0.09083747863769531;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 0
+Vary: Cookie
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+
+GET /admin/login/?next=/admin/auth/group/%253Cpath%3Aobject_id%253E/history/%2509django.contrib.admin.options.history_view%2509admin%3Aauth_group_history HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:22 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Expires: Tue, 10 Aug 2021 12:10:22 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Vary: Cookie
+Server-Timing: TimerPanel_utime;dur=18.012999999999835;desc="User CPU time", TimerPanel_stime;dur=15.94300000000004;desc="System CPU time", TimerPanel_total;dur=33.955999999999875;desc="Total CPU time", TimerPanel_total_time;dur=29.233455657958984;desc="Elapsed time", SQLPanel_sql_time;dur=0.09202957153320312;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 13422
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Set-Cookie:  csrftoken=wENij20Tmm22eHiW9IDvu2vQayaCGunzd6uIJulU7kPGi3Lf8hUfLHXI4XK50HHT; expires=Tue, 09 Aug 2022 12:10:22 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+
+
+GET /static/debug_toolbar/js/toolbar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:22 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 10452
+Content-Disposition: inline; filename="toolbar.js"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/toolbar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:22 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 11461
+Content-Disposition: inline; filename="toolbar.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/print.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:22 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 43
+Content-Disposition: inline; filename="print.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/admin/css/responsive.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:22 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 18545
+Content-Disposition: inline; filename="responsive.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/login.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:22 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 939
+Content-Disposition: inline; filename="login.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/js/nav_sidebar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:22 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 1360
+Content-Disposition: inline; filename="nav_sidebar.js"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/nav_sidebar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:22 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 2271
+Content-Disposition: inline; filename="nav_sidebar.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/base.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:22 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 19513
+Content-Disposition: inline; filename="base.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /admin/auth/group/add/%09django.contrib.admin.options.add_view%09admin:auth_group_add HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 302 Found
+Date: Tue, 10 Aug 2021 12:10:22 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Location: /admin/login/?next=/admin/auth/group/add/%2509django.contrib.admin.options.add_view%2509admin%3Aauth_group_add
+Expires: Tue, 10 Aug 2021 12:10:22 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Server-Timing: TimerPanel_utime;dur=12.862000000000151;desc="User CPU time", TimerPanel_stime;dur=0.0;desc="System CPU time", TimerPanel_total;dur=12.862000000000151;desc="Total CPU time", TimerPanel_total_time;dur=13.706445693969727;desc="Elapsed time", SQLPanel_sql_time;dur=0.04029273986816406;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 0
+Vary: Cookie
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+
+GET /admin/login/?next=/admin/auth/group/add/%2509django.contrib.admin.options.add_view%2509admin%3Aauth_group_add HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:22 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Expires: Tue, 10 Aug 2021 12:10:22 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Vary: Cookie
+Server-Timing: TimerPanel_utime;dur=21.285999999999916;desc="User CPU time", TimerPanel_stime;dur=0.02999999999997449;desc="System CPU time", TimerPanel_total;dur=21.31599999999989;desc="Total CPU time", TimerPanel_total_time;dur=22.22728729248047;desc="Elapsed time", SQLPanel_sql_time;dur=0.03600120544433594;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 13350
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Set-Cookie:  csrftoken=aC8jPCWjtPhFcKV025dcwyQP7scumzZU6jKO6SO4n9iE0UJJduKlCFQtQW6wx67L; expires=Tue, 09 Aug 2022 12:10:22 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+
+
+GET /static/debug_toolbar/js/toolbar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:22 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 10452
+Content-Disposition: inline; filename="toolbar.js"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/toolbar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:22 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 11461
+Content-Disposition: inline; filename="toolbar.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/print.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:22 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 43
+Content-Disposition: inline; filename="print.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/admin/css/responsive.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:22 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 18545
+Content-Disposition: inline; filename="responsive.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/login.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:22 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 939
+Content-Disposition: inline; filename="login.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/js/nav_sidebar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:22 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 1360
+Content-Disposition: inline; filename="nav_sidebar.js"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/nav_sidebar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:22 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 2271
+Content-Disposition: inline; filename="nav_sidebar.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/base.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:22 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 19513
+Content-Disposition: inline; filename="base.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /admin/authapp/user/%09django.contrib.admin.options.changelist_view%09admin:authapp_user_changelist HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 302 Found
+Date: Tue, 10 Aug 2021 12:10:22 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Location: /admin/login/?next=/admin/authapp/user/%2509django.contrib.admin.options.changelist_view%2509admin%3Aauthapp_user_changelist
+Expires: Tue, 10 Aug 2021 12:10:22 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Server-Timing: TimerPanel_utime;dur=8.820999999999302;desc="User CPU time", TimerPanel_stime;dur=4.158000000000106;desc="System CPU time", TimerPanel_total;dur=12.978999999999408;desc="Total CPU time", TimerPanel_total_time;dur=13.687372207641602;desc="Elapsed time", SQLPanel_sql_time;dur=0.037670135498046875;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 0
+Vary: Cookie
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+
+GET /admin/login/?next=/admin/authapp/user/%2509django.contrib.admin.options.changelist_view%2509admin%3Aauthapp_user_changelist HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:22 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Expires: Tue, 10 Aug 2021 12:10:22 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Vary: Cookie
+Server-Timing: TimerPanel_utime;dur=18.85300000000001;desc="User CPU time", TimerPanel_stime;dur=3.8650000000000073;desc="System CPU time", TimerPanel_total;dur=22.718000000000018;desc="Total CPU time", TimerPanel_total_time;dur=23.37956428527832;desc="Elapsed time", SQLPanel_sql_time;dur=0.03719329833984375;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 13378
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Set-Cookie:  csrftoken=UbpcU9XWBnQJc3vJDHazMm7hFyJE2BmEUFW58EO1S3iO6Mr2aAmCFzrOmcrgK1xr; expires=Tue, 09 Aug 2022 12:10:22 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+
+
+GET /static/debug_toolbar/js/toolbar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:22 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 10452
+Content-Disposition: inline; filename="toolbar.js"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/toolbar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:22 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 11461
+Content-Disposition: inline; filename="toolbar.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/print.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:22 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 43
+Content-Disposition: inline; filename="print.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/admin/css/responsive.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:22 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 18545
+Content-Disposition: inline; filename="responsive.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/login.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:22 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 939
+Content-Disposition: inline; filename="login.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/js/nav_sidebar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:22 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 1360
+Content-Disposition: inline; filename="nav_sidebar.js"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/nav_sidebar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:22 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 2271
+Content-Disposition: inline; filename="nav_sidebar.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/base.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:22 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 19513
+Content-Disposition: inline; filename="base.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /admin/authapp/user/%3Cpath:object_id%3E/%09django.views.generic.base.RedirectView HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 302 Found
+Date: Tue, 10 Aug 2021 12:10:23 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Location: /admin/login/?next=/admin/authapp/user/%253Cpath%3Aobject_id%253E/%2509django.views.generic.base.RedirectView
+Expires: Tue, 10 Aug 2021 12:10:23 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Server-Timing: TimerPanel_utime;dur=10.569000000000273;desc="User CPU time", TimerPanel_stime;dur=4.394999999999927;desc="System CPU time", TimerPanel_total;dur=14.9640000000002;desc="Total CPU time", TimerPanel_total_time;dur=15.897274017333984;desc="Elapsed time", SQLPanel_sql_time;dur=0.1304149627685547;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 0
+Vary: Cookie
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+
+GET /admin/login/?next=/admin/authapp/user/%253Cpath%3Aobject_id%253E/%2509django.views.generic.base.RedirectView HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:23 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Expires: Tue, 10 Aug 2021 12:10:23 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Vary: Cookie
+Server-Timing: TimerPanel_utime;dur=20.8750000000002;desc="User CPU time", TimerPanel_stime;dur=0.0;desc="System CPU time", TimerPanel_total;dur=20.8750000000002;desc="Total CPU time", TimerPanel_total_time;dur=21.397829055786133;desc="Elapsed time", SQLPanel_sql_time;dur=0.03504753112792969;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 13346
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Set-Cookie:  csrftoken=WbbperEySFmzGf8Iab2yDTepVaQfNK3Mr2T52R9CzklVv1HKHrc9MoUxsWyybrKV; expires=Tue, 09 Aug 2022 12:10:23 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+
+
+GET /static/debug_toolbar/js/toolbar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:23 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 10452
+Content-Disposition: inline; filename="toolbar.js"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/toolbar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:23 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 11461
+Content-Disposition: inline; filename="toolbar.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/print.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:23 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 43
+Content-Disposition: inline; filename="print.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/admin/css/responsive.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:23 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 18545
+Content-Disposition: inline; filename="responsive.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/login.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:23 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 939
+Content-Disposition: inline; filename="login.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/js/nav_sidebar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:23 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 1360
+Content-Disposition: inline; filename="nav_sidebar.js"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/nav_sidebar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:23 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 2271
+Content-Disposition: inline; filename="nav_sidebar.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/base.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:23 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 19513
+Content-Disposition: inline; filename="base.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /admin/authapp/user/%3Cpath:object_id%3E/change/%09django.contrib.admin.options.change_view%09admin:authapp_user_change HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 302 Found
+Date: Tue, 10 Aug 2021 12:10:24 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Location: /admin/login/?next=/admin/authapp/user/%253Cpath%3Aobject_id%253E/change/%2509django.contrib.admin.options.change_view%2509admin%3Aauthapp_user_change
+Expires: Tue, 10 Aug 2021 12:10:24 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Server-Timing: TimerPanel_utime;dur=16.55500000000032;desc="User CPU time", TimerPanel_stime;dur=0.0;desc="System CPU time", TimerPanel_total;dur=16.55500000000032;desc="Total CPU time", TimerPanel_total_time;dur=17.879009246826172;desc="Elapsed time", SQLPanel_sql_time;dur=0.05173683166503906;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 0
+Vary: Cookie
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+
+GET /admin/login/?next=/admin/authapp/user/%253Cpath%3Aobject_id%253E/change/%2509django.contrib.admin.options.change_view%2509admin%3Aauthapp_user_change HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:24 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Expires: Tue, 10 Aug 2021 12:10:24 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Vary: Cookie
+Server-Timing: TimerPanel_utime;dur=22.297999999999263;desc="User CPU time", TimerPanel_stime;dur=0.0;desc="System CPU time", TimerPanel_total;dur=22.297999999999263;desc="Total CPU time", TimerPanel_total_time;dur=23.050785064697266;desc="Elapsed time", SQLPanel_sql_time;dur=0.057697296142578125;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 13424
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Set-Cookie:  csrftoken=TJhARQpLRZh3m4B3qHbaKJwPNDfCrWLW5rXD6NSDH8MFopjKzeUOzwPYzBoGrZUj; expires=Tue, 09 Aug 2022 12:10:24 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+
+
+GET /static/debug_toolbar/js/toolbar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:24 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 10452
+Content-Disposition: inline; filename="toolbar.js"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/toolbar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:24 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 11461
+Content-Disposition: inline; filename="toolbar.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/print.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:24 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 43
+Content-Disposition: inline; filename="print.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/admin/css/responsive.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:24 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 18545
+Content-Disposition: inline; filename="responsive.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/login.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:24 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 939
+Content-Disposition: inline; filename="login.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/js/nav_sidebar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:24 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 1360
+Content-Disposition: inline; filename="nav_sidebar.js"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/nav_sidebar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:24 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 2271
+Content-Disposition: inline; filename="nav_sidebar.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/base.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:24 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 19513
+Content-Disposition: inline; filename="base.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /admin/authapp/user/%3Cpath:object_id%3E/delete/%09django.contrib.admin.options.delete_view%09admin:authapp_user_delete HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 302 Found
+Date: Tue, 10 Aug 2021 12:10:26 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Location: /admin/login/?next=/admin/authapp/user/%253Cpath%3Aobject_id%253E/delete/%2509django.contrib.admin.options.delete_view%2509admin%3Aauthapp_user_delete
+Expires: Tue, 10 Aug 2021 12:10:26 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Server-Timing: TimerPanel_utime;dur=10.98700000000008;desc="User CPU time", TimerPanel_stime;dur=3.598999999999908;desc="System CPU time", TimerPanel_total;dur=14.585999999999988;desc="Total CPU time", TimerPanel_total_time;dur=15.794038772583008;desc="Elapsed time", SQLPanel_sql_time;dur=0.07939338684082031;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 0
+Vary: Cookie
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+
+GET /admin/login/?next=/admin/authapp/user/%253Cpath%3Aobject_id%253E/delete/%2509django.contrib.admin.options.delete_view%2509admin%3Aauthapp_user_delete HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:26 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Expires: Tue, 10 Aug 2021 12:10:26 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Vary: Cookie
+Server-Timing: TimerPanel_utime;dur=23.58600000000166;desc="User CPU time", TimerPanel_stime;dur=0.0;desc="System CPU time", TimerPanel_total;dur=23.58600000000166;desc="Total CPU time", TimerPanel_total_time;dur=24.45387840270996;desc="Elapsed time", SQLPanel_sql_time;dur=0.03838539123535156;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 13425
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Set-Cookie:  csrftoken=qJifHLodgf0SDRQwBEkyXdCt651yyQPJdhJ1UvyXqU1q9KsCptATYhpcXrZLfxNq; expires=Tue, 09 Aug 2022 12:10:26 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+
+
+GET /static/debug_toolbar/js/toolbar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:26 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 10452
+Content-Disposition: inline; filename="toolbar.js"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/toolbar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:26 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 11461
+Content-Disposition: inline; filename="toolbar.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/print.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:26 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 43
+Content-Disposition: inline; filename="print.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/admin/css/responsive.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:26 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 18545
+Content-Disposition: inline; filename="responsive.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/login.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:26 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 939
+Content-Disposition: inline; filename="login.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/js/nav_sidebar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:26 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 1360
+Content-Disposition: inline; filename="nav_sidebar.js"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/nav_sidebar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:26 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 2271
+Content-Disposition: inline; filename="nav_sidebar.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/base.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:26 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 19513
+Content-Disposition: inline; filename="base.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /admin/authapp/user/%3Cpath:object_id%3E/history/%09django.contrib.admin.options.history_view%09admin:authapp_user_history HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 302 Found
+Date: Tue, 10 Aug 2021 12:10:26 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Location: /admin/login/?next=/admin/authapp/user/%253Cpath%3Aobject_id%253E/history/%2509django.contrib.admin.options.history_view%2509admin%3Aauthapp_user_history
+Expires: Tue, 10 Aug 2021 12:10:26 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Server-Timing: TimerPanel_utime;dur=12.0900000000006;desc="User CPU time", TimerPanel_stime;dur=0.5340000000000344;desc="System CPU time", TimerPanel_total;dur=12.624000000000635;desc="Total CPU time", TimerPanel_total_time;dur=13.211965560913086;desc="Elapsed time", SQLPanel_sql_time;dur=0.03719329833984375;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 0
+Vary: Cookie
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+
+GET /admin/login/?next=/admin/authapp/user/%253Cpath%3Aobject_id%253E/history/%2509django.contrib.admin.options.history_view%2509admin%3Aauthapp_user_history HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:26 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Expires: Tue, 10 Aug 2021 12:10:26 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Vary: Cookie
+Server-Timing: TimerPanel_utime;dur=23.286999999999836;desc="User CPU time", TimerPanel_stime;dur=0.0;desc="System CPU time", TimerPanel_total;dur=23.286999999999836;desc="Total CPU time", TimerPanel_total_time;dur=24.26314353942871;desc="Elapsed time", SQLPanel_sql_time;dur=0.034809112548828125;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 13430
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Set-Cookie:  csrftoken=mSbevCPjlrZcLQo8ou15ZhKhEjUlPHTlDFViCx2hCG4UNBy5VXKVxhZhcYmdBLTa; expires=Tue, 09 Aug 2022 12:10:26 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+
+
+GET /static/debug_toolbar/js/toolbar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:26 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 10452
+Content-Disposition: inline; filename="toolbar.js"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/toolbar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:26 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 11461
+Content-Disposition: inline; filename="toolbar.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/print.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:26 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 43
+Content-Disposition: inline; filename="print.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/admin/css/responsive.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:26 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 18545
+Content-Disposition: inline; filename="responsive.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/login.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:26 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 939
+Content-Disposition: inline; filename="login.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/js/nav_sidebar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:26 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 1360
+Content-Disposition: inline; filename="nav_sidebar.js"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/nav_sidebar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:26 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 2271
+Content-Disposition: inline; filename="nav_sidebar.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/base.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:26 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 19513
+Content-Disposition: inline; filename="base.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /admin/authapp/user/add/%09django.contrib.admin.options.add_view%09admin:authapp_user_add HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 302 Found
+Date: Tue, 10 Aug 2021 12:10:27 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Location: /admin/login/?next=/admin/authapp/user/add/%2509django.contrib.admin.options.add_view%2509admin%3Aauthapp_user_add
+Expires: Tue, 10 Aug 2021 12:10:27 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Server-Timing: TimerPanel_utime;dur=17.606000000000677;desc="User CPU time", TimerPanel_stime;dur=0.0;desc="System CPU time", TimerPanel_total;dur=17.606000000000677;desc="Total CPU time", TimerPanel_total_time;dur=19.107580184936523;desc="Elapsed time", SQLPanel_sql_time;dur=0.06461143493652344;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 0
+Vary: Cookie
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+
+GET /admin/login/?next=/admin/authapp/user/add/%2509django.contrib.admin.options.add_view%2509admin%3Aauthapp_user_add HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:27 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Expires: Tue, 10 Aug 2021 12:10:27 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Vary: Cookie
+Server-Timing: TimerPanel_utime;dur=23.967000000000738;desc="User CPU time", TimerPanel_stime;dur=0.0;desc="System CPU time", TimerPanel_total;dur=23.967000000000738;desc="Total CPU time", TimerPanel_total_time;dur=25.051355361938477;desc="Elapsed time", SQLPanel_sql_time;dur=0.051021575927734375;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 13358
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Set-Cookie:  csrftoken=yIvHPmIYbSvNcwCcCAqtjosJu3CbwFBTh2xKuJF5PZxGduamgUDVVHmMnF1FRU1V; expires=Tue, 09 Aug 2022 12:10:27 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+
+
+GET /static/debug_toolbar/js/toolbar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:27 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 10452
+Content-Disposition: inline; filename="toolbar.js"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/toolbar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:27 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 11461
+Content-Disposition: inline; filename="toolbar.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/print.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:27 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 43
+Content-Disposition: inline; filename="print.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/admin/css/responsive.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:27 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 18545
+Content-Disposition: inline; filename="responsive.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/login.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:27 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 939
+Content-Disposition: inline; filename="login.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/js/nav_sidebar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:27 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 1360
+Content-Disposition: inline; filename="nav_sidebar.js"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/nav_sidebar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:27 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 2271
+Content-Disposition: inline; filename="nav_sidebar.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/base.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:27 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 19513
+Content-Disposition: inline; filename="base.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /admin/autocomplete/%09django.contrib.admin.sites.autocomplete_view%09admin:autocomplete HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 302 Found
+Date: Tue, 10 Aug 2021 12:10:27 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Location: /admin/login/?next=/admin/autocomplete/%2509django.contrib.admin.sites.autocomplete_view%2509admin%3Aautocomplete
+Expires: Tue, 10 Aug 2021 12:10:27 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Server-Timing: TimerPanel_utime;dur=10.22700000000043;desc="User CPU time", TimerPanel_stime;dur=3.32700000000008;desc="System CPU time", TimerPanel_total;dur=13.55400000000051;desc="Total CPU time", TimerPanel_total_time;dur=14.170646667480469;desc="Elapsed time", SQLPanel_sql_time;dur=0.04935264587402344;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 0
+Vary: Cookie
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+
+GET /admin/login/?next=/admin/autocomplete/%2509django.contrib.admin.sites.autocomplete_view%2509admin%3Aautocomplete HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:27 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Expires: Tue, 10 Aug 2021 12:10:27 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Vary: Cookie
+Server-Timing: TimerPanel_utime;dur=15.831999999999624;desc="User CPU time", TimerPanel_stime;dur=8.072999999999997;desc="System CPU time", TimerPanel_total;dur=23.90499999999962;desc="Total CPU time", TimerPanel_total_time;dur=24.865150451660156;desc="Elapsed time", SQLPanel_sql_time;dur=0.038623809814453125;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 13356
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Set-Cookie:  csrftoken=ABuCToV8e06MzEtM5ehYWITR9ADZwnYMjTRX9Ty5T2oENntvIDgxqZIoDAuHCJR4; expires=Tue, 09 Aug 2022 12:10:27 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+
+
+GET /static/debug_toolbar/js/toolbar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:27 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 10452
+Content-Disposition: inline; filename="toolbar.js"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/toolbar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:27 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 11461
+Content-Disposition: inline; filename="toolbar.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/print.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:27 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 43
+Content-Disposition: inline; filename="print.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/admin/css/responsive.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:27 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 18545
+Content-Disposition: inline; filename="responsive.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/login.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:27 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 939
+Content-Disposition: inline; filename="login.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/js/nav_sidebar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:27 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 1360
+Content-Disposition: inline; filename="nav_sidebar.js"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/nav_sidebar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:27 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 2271
+Content-Disposition: inline; filename="nav_sidebar.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/base.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:27 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 19513
+Content-Disposition: inline; filename="base.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /admin/basketapp/basket/%09django.contrib.admin.options.changelist_view%09admin:basketapp_basket_changelist HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 302 Found
+Date: Tue, 10 Aug 2021 12:10:28 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Location: /admin/login/?next=/admin/basketapp/basket/%2509django.contrib.admin.options.changelist_view%2509admin%3Abasketapp_basket_changelist
+Expires: Tue, 10 Aug 2021 12:10:28 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Server-Timing: TimerPanel_utime;dur=10.087000000000401;desc="User CPU time", TimerPanel_stime;dur=7.845000000000102;desc="System CPU time", TimerPanel_total;dur=17.932000000000503;desc="Total CPU time", TimerPanel_total_time;dur=19.260406494140625;desc="Elapsed time", SQLPanel_sql_time;dur=0.10752677917480469;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 0
+Vary: Cookie
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+
+GET /admin/login/?next=/admin/basketapp/basket/%2509django.contrib.admin.options.changelist_view%2509admin%3Abasketapp_basket_changelist HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:28 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Expires: Tue, 10 Aug 2021 12:10:28 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Vary: Cookie
+Server-Timing: TimerPanel_utime;dur=24.692999999999188;desc="User CPU time", TimerPanel_stime;dur=0.0;desc="System CPU time", TimerPanel_total;dur=24.692999999999188;desc="Total CPU time", TimerPanel_total_time;dur=25.663375854492188;desc="Elapsed time", SQLPanel_sql_time;dur=0.0476837158203125;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 13394
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Set-Cookie:  csrftoken=V4lQoHWAh5PvJwRaRSeKIP5YeNHiUknZSeDHcSX0GLYwTX4TyfBPKrG3Yyy5mwuq; expires=Tue, 09 Aug 2022 12:10:28 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+
+
+GET /static/debug_toolbar/js/toolbar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:28 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 10452
+Content-Disposition: inline; filename="toolbar.js"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/toolbar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:28 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 11461
+Content-Disposition: inline; filename="toolbar.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/print.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:28 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 43
+Content-Disposition: inline; filename="print.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/admin/css/responsive.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:28 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 18545
+Content-Disposition: inline; filename="responsive.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/login.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:28 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 939
+Content-Disposition: inline; filename="login.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/js/nav_sidebar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:28 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 1360
+Content-Disposition: inline; filename="nav_sidebar.js"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/nav_sidebar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:28 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 2271
+Content-Disposition: inline; filename="nav_sidebar.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/base.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:28 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 19513
+Content-Disposition: inline; filename="base.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /admin/basketapp/basket/%3Cpath:object_id%3E/%09django.views.generic.base.RedirectView HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 302 Found
+Date: Tue, 10 Aug 2021 12:10:29 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Location: /admin/login/?next=/admin/basketapp/basket/%253Cpath%3Aobject_id%253E/%2509django.views.generic.base.RedirectView
+Expires: Tue, 10 Aug 2021 12:10:29 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Server-Timing: TimerPanel_utime;dur=16.189000000000675;desc="User CPU time", TimerPanel_stime;dur=0.0;desc="System CPU time", TimerPanel_total;dur=16.189000000000675;desc="Total CPU time", TimerPanel_total_time;dur=17.12799072265625;desc="Elapsed time", SQLPanel_sql_time;dur=0.13327598571777344;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 0
+Vary: Cookie
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+
+GET /admin/login/?next=/admin/basketapp/basket/%253Cpath%3Aobject_id%253E/%2509django.views.generic.base.RedirectView HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:29 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Expires: Tue, 10 Aug 2021 12:10:29 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Vary: Cookie
+Server-Timing: TimerPanel_utime;dur=21.696999999999633;desc="User CPU time", TimerPanel_stime;dur=0.18500000000010175;desc="System CPU time", TimerPanel_total;dur=21.881999999999735;desc="Total CPU time", TimerPanel_total_time;dur=22.420406341552734;desc="Elapsed time", SQLPanel_sql_time;dur=0.034332275390625;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 13354
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Set-Cookie:  csrftoken=kf5ULGGBbexEornhuCT23FUS5WvukZcgrJecEvYXa1jgGhMBzUfzH5iKlxfYunyP; expires=Tue, 09 Aug 2022 12:10:29 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+
+
+GET /static/debug_toolbar/js/toolbar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:29 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 10452
+Content-Disposition: inline; filename="toolbar.js"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/toolbar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:29 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 11461
+Content-Disposition: inline; filename="toolbar.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/print.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:29 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 43
+Content-Disposition: inline; filename="print.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/admin/css/responsive.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:29 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 18545
+Content-Disposition: inline; filename="responsive.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/login.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:29 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 939
+Content-Disposition: inline; filename="login.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/js/nav_sidebar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:29 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 1360
+Content-Disposition: inline; filename="nav_sidebar.js"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/nav_sidebar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:29 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 2271
+Content-Disposition: inline; filename="nav_sidebar.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/base.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:29 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 19513
+Content-Disposition: inline; filename="base.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /admin/basketapp/basket/%3Cpath:object_id%3E/change/%09django.contrib.admin.options.change_view%09admin:basketapp_basket_change HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 302 Found
+Date: Tue, 10 Aug 2021 12:10:30 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Location: /admin/login/?next=/admin/basketapp/basket/%253Cpath%3Aobject_id%253E/change/%2509django.contrib.admin.options.change_view%2509admin%3Abasketapp_basket_change
+Expires: Tue, 10 Aug 2021 12:10:30 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Server-Timing: TimerPanel_utime;dur=14.737999999999474;desc="User CPU time", TimerPanel_stime;dur=0.0;desc="System CPU time", TimerPanel_total;dur=14.737999999999474;desc="Total CPU time", TimerPanel_total_time;dur=15.761613845825195;desc="Elapsed time", SQLPanel_sql_time;dur=0.07534027099609375;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 0
+Vary: Cookie
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+
+GET /admin/login/?next=/admin/basketapp/basket/%253Cpath%3Aobject_id%253E/change/%2509django.contrib.admin.options.change_view%2509admin%3Abasketapp_basket_change HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:30 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Expires: Tue, 10 Aug 2021 12:10:30 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Vary: Cookie
+Server-Timing: TimerPanel_utime;dur=20.42100000000069;desc="User CPU time", TimerPanel_stime;dur=3.659000000000079;desc="System CPU time", TimerPanel_total;dur=24.080000000000766;desc="Total CPU time", TimerPanel_total_time;dur=24.6734619140625;desc="Elapsed time", SQLPanel_sql_time;dur=0.03981590270996094;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 13440
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Set-Cookie:  csrftoken=txJTPAYOpUgKPPCC9AUKHet04XyurSj8FXTH5rtCaTcTN7iEJWQWd0Qu85Linf4a; expires=Tue, 09 Aug 2022 12:10:30 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+
+
+GET /static/debug_toolbar/js/toolbar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:30 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 10452
+Content-Disposition: inline; filename="toolbar.js"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/toolbar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:30 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 11461
+Content-Disposition: inline; filename="toolbar.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/print.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:30 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 43
+Content-Disposition: inline; filename="print.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/admin/css/responsive.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:30 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 18545
+Content-Disposition: inline; filename="responsive.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/login.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:30 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 939
+Content-Disposition: inline; filename="login.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/js/nav_sidebar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:30 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 1360
+Content-Disposition: inline; filename="nav_sidebar.js"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/nav_sidebar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:30 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 2271
+Content-Disposition: inline; filename="nav_sidebar.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/base.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:30 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 19513
+Content-Disposition: inline; filename="base.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /admin/basketapp/basket/%3Cpath:object_id%3E/delete/%09django.contrib.admin.options.delete_view%09admin:basketapp_basket_delete HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 302 Found
+Date: Tue, 10 Aug 2021 12:10:30 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Location: /admin/login/?next=/admin/basketapp/basket/%253Cpath%3Aobject_id%253E/delete/%2509django.contrib.admin.options.delete_view%2509admin%3Abasketapp_basket_delete
+Expires: Tue, 10 Aug 2021 12:10:30 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Server-Timing: TimerPanel_utime;dur=11.59700000000008;desc="User CPU time", TimerPanel_stime;dur=0.0;desc="System CPU time", TimerPanel_total;dur=11.59700000000008;desc="Total CPU time", TimerPanel_total_time;dur=12.167930603027344;desc="Elapsed time", SQLPanel_sql_time;dur=0.03838539123535156;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 0
+Vary: Cookie
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+
+GET /admin/login/?next=/admin/basketapp/basket/%253Cpath%3Aobject_id%253E/delete/%2509django.contrib.admin.options.delete_view%2509admin%3Abasketapp_basket_delete HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:30 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Expires: Tue, 10 Aug 2021 12:10:30 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Vary: Cookie
+Server-Timing: TimerPanel_utime;dur=23.71700000000132;desc="User CPU time", TimerPanel_stime;dur=0.0;desc="System CPU time", TimerPanel_total;dur=23.71700000000132;desc="Total CPU time", TimerPanel_total_time;dur=24.71923828125;desc="Elapsed time", SQLPanel_sql_time;dur=0.03743171691894531;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 13440
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Set-Cookie:  csrftoken=jQojziEIvyw5zfUPc4yNKZG8KjFyxs8LXNie9ZXe7UukyBBPjdaq5ayf4yTKcqww; expires=Tue, 09 Aug 2022 12:10:30 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+
+
+GET /static/debug_toolbar/js/toolbar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:30 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 10452
+Content-Disposition: inline; filename="toolbar.js"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/toolbar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:30 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 11461
+Content-Disposition: inline; filename="toolbar.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/print.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:30 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 43
+Content-Disposition: inline; filename="print.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/admin/css/responsive.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:30 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 18545
+Content-Disposition: inline; filename="responsive.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/login.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:30 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 939
+Content-Disposition: inline; filename="login.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/js/nav_sidebar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:30 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 1360
+Content-Disposition: inline; filename="nav_sidebar.js"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/nav_sidebar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:30 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 2271
+Content-Disposition: inline; filename="nav_sidebar.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/base.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:30 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 19513
+Content-Disposition: inline; filename="base.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /admin/basketapp/basket/%3Cpath:object_id%3E/history/%09django.contrib.admin.options.history_view%09admin:basketapp_basket_history HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 302 Found
+Date: Tue, 10 Aug 2021 12:10:30 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Location: /admin/login/?next=/admin/basketapp/basket/%253Cpath%3Aobject_id%253E/history/%2509django.contrib.admin.options.history_view%2509admin%3Abasketapp_basket_history
+Expires: Tue, 10 Aug 2021 12:10:30 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Server-Timing: TimerPanel_utime;dur=12.67099999999921;desc="User CPU time", TimerPanel_stime;dur=0.0;desc="System CPU time", TimerPanel_total;dur=12.67099999999921;desc="Total CPU time", TimerPanel_total_time;dur=13.311147689819336;desc="Elapsed time", SQLPanel_sql_time;dur=0.03838539123535156;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 0
+Vary: Cookie
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+
+GET /admin/login/?next=/admin/basketapp/basket/%253Cpath%3Aobject_id%253E/history/%2509django.contrib.admin.options.history_view%2509admin%3Abasketapp_basket_history HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:30 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Expires: Tue, 10 Aug 2021 12:10:30 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Vary: Cookie
+Server-Timing: TimerPanel_utime;dur=22.678000000000864;desc="User CPU time", TimerPanel_stime;dur=0.0;desc="System CPU time", TimerPanel_total;dur=22.678000000000864;desc="Total CPU time", TimerPanel_total_time;dur=23.353099822998047;desc="Elapsed time", SQLPanel_sql_time;dur=0.047206878662109375;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 13446
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Set-Cookie:  csrftoken=BIuF12IF8GPj4zpQyz4LuqH7hCgnd4EUpgCObi2VynfDyEy6gf7aJ5tytHVLhYw2; expires=Tue, 09 Aug 2022 12:10:30 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+
+
+GET /static/debug_toolbar/js/toolbar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:30 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 10452
+Content-Disposition: inline; filename="toolbar.js"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/toolbar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:30 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 11461
+Content-Disposition: inline; filename="toolbar.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/print.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:30 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 43
+Content-Disposition: inline; filename="print.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/admin/css/responsive.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:30 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 18545
+Content-Disposition: inline; filename="responsive.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/login.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:30 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 939
+Content-Disposition: inline; filename="login.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/js/nav_sidebar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:30 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 1360
+Content-Disposition: inline; filename="nav_sidebar.js"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/nav_sidebar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:30 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 2271
+Content-Disposition: inline; filename="nav_sidebar.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/base.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:30 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 19513
+Content-Disposition: inline; filename="base.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /admin/basketapp/basket/add/%09django.contrib.admin.options.add_view%09admin:basketapp_basket_add HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 302 Found
+Date: Tue, 10 Aug 2021 12:10:31 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Location: /admin/login/?next=/admin/basketapp/basket/add/%2509django.contrib.admin.options.add_view%2509admin%3Abasketapp_basket_add
+Expires: Tue, 10 Aug 2021 12:10:31 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Server-Timing: TimerPanel_utime;dur=15.970999999998625;desc="User CPU time", TimerPanel_stime;dur=0.0;desc="System CPU time", TimerPanel_total;dur=15.970999999998625;desc="Total CPU time", TimerPanel_total_time;dur=17.095088958740234;desc="Elapsed time", SQLPanel_sql_time;dur=0.12969970703125;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 0
+Vary: Cookie
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+
+GET /admin/login/?next=/admin/basketapp/basket/add/%2509django.contrib.admin.options.add_view%2509admin%3Abasketapp_basket_add HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:31 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Expires: Tue, 10 Aug 2021 12:10:31 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Vary: Cookie
+Server-Timing: TimerPanel_utime;dur=34.759000000001095;desc="User CPU time", TimerPanel_stime;dur=0.300000000000189;desc="System CPU time", TimerPanel_total;dur=35.059000000001284;desc="Total CPU time", TimerPanel_total_time;dur=35.49337387084961;desc="Elapsed time", SQLPanel_sql_time;dur=0.04744529724121094;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 13374
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Set-Cookie:  csrftoken=16K3JbHDC0CVSfhFDjto5G8nigGFzVBAQ3G9gt8C9F2ezXbl88SYnPGoInIP31aB; expires=Tue, 09 Aug 2022 12:10:31 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+
+
+GET /static/debug_toolbar/js/toolbar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:31 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 10452
+Content-Disposition: inline; filename="toolbar.js"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/toolbar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:31 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 11461
+Content-Disposition: inline; filename="toolbar.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/print.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:31 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 43
+Content-Disposition: inline; filename="print.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/admin/css/responsive.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:31 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 18545
+Content-Disposition: inline; filename="responsive.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/login.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:31 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 939
+Content-Disposition: inline; filename="login.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/js/nav_sidebar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:31 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 1360
+Content-Disposition: inline; filename="nav_sidebar.js"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/nav_sidebar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:31 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 2271
+Content-Disposition: inline; filename="nav_sidebar.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/base.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:31 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 19513
+Content-Disposition: inline; filename="base.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /admin/jsi18n/%09django.contrib.admin.sites.i18n_javascript%09admin:jsi18n HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 302 Found
+Date: Tue, 10 Aug 2021 12:10:32 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Location: /admin/login/?next=/admin/jsi18n/%2509django.contrib.admin.sites.i18n_javascript%2509admin%3Ajsi18n
+Expires: Tue, 10 Aug 2021 12:10:32 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Server-Timing: TimerPanel_utime;dur=14.585999999999544;desc="User CPU time", TimerPanel_stime;dur=0.3210000000000157;desc="System CPU time", TimerPanel_total;dur=14.90699999999956;desc="Total CPU time", TimerPanel_total_time;dur=14.734745025634766;desc="Elapsed time", SQLPanel_sql_time;dur=0.06031990051269531;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 0
+Vary: Cookie
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+
+GET /admin/login/?next=/admin/jsi18n/%2509django.contrib.admin.sites.i18n_javascript%2509admin%3Ajsi18n HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:32 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Expires: Tue, 10 Aug 2021 12:10:32 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Vary: Cookie
+Server-Timing: TimerPanel_utime;dur=26.939999999999742;desc="User CPU time", TimerPanel_stime;dur=13.590999999999909;desc="System CPU time", TimerPanel_total;dur=40.53099999999965;desc="Total CPU time", TimerPanel_total_time;dur=34.91950035095215;desc="Elapsed time", SQLPanel_sql_time;dur=0.0762939453125;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 13329
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Set-Cookie:  csrftoken=HYpldLnO35zZRaKGUdvOROVofTVpwpdZLw9dx9Qon5IObQ5C3mCidnQcLh16PbFk; expires=Tue, 09 Aug 2022 12:10:32 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+
+
+GET /static/debug_toolbar/js/toolbar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:32 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 10452
+Content-Disposition: inline; filename="toolbar.js"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/toolbar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:32 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 11461
+Content-Disposition: inline; filename="toolbar.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/print.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:32 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 43
+Content-Disposition: inline; filename="print.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/admin/css/responsive.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:32 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 18545
+Content-Disposition: inline; filename="responsive.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/login.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:32 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 939
+Content-Disposition: inline; filename="login.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/js/nav_sidebar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:32 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 1360
+Content-Disposition: inline; filename="nav_sidebar.js"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/nav_sidebar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:33 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 2271
+Content-Disposition: inline; filename="nav_sidebar.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/base.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:33 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 19513
+Content-Disposition: inline; filename="base.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /admin/login/%09django.contrib.admin.sites.login%09admin:login HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 302 Found
+Date: Tue, 10 Aug 2021 12:10:33 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Location: /admin/login/?next=/admin/login/%2509django.contrib.admin.sites.login%2509admin%3Alogin
+Expires: Tue, 10 Aug 2021 12:10:33 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Server-Timing: TimerPanel_utime;dur=18.299999999999983;desc="User CPU time", TimerPanel_stime;dur=0.2729999999999677;desc="System CPU time", TimerPanel_total;dur=18.57299999999995;desc="Total CPU time", TimerPanel_total_time;dur=16.3421630859375;desc="Elapsed time", SQLPanel_sql_time;dur=0.06937980651855469;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 0
+Vary: Cookie
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+
+GET /admin/login/?next=/admin/login/%2509django.contrib.admin.sites.login%2509admin%3Alogin HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:33 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Expires: Tue, 10 Aug 2021 12:10:33 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Vary: Cookie
+Server-Timing: TimerPanel_utime;dur=25.36399999999972;desc="User CPU time", TimerPanel_stime;dur=0.0;desc="System CPU time", TimerPanel_total;dur=25.36399999999972;desc="Total CPU time", TimerPanel_total_time;dur=25.43163299560547;desc="Elapsed time", SQLPanel_sql_time;dur=0.05030632019042969;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 13304
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Set-Cookie:  csrftoken=i5Q5Eo1Fc1QD4UNTpTEv6cLS5HOQPGh6W203Mhux88Eo4z32mEEFcCi93dJSjCJF; expires=Tue, 09 Aug 2022 12:10:33 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+
+
+GET /static/debug_toolbar/js/toolbar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:33 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 10452
+Content-Disposition: inline; filename="toolbar.js"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/toolbar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:33 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 11461
+Content-Disposition: inline; filename="toolbar.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/print.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:33 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 43
+Content-Disposition: inline; filename="print.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/admin/css/responsive.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:33 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 18545
+Content-Disposition: inline; filename="responsive.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/login.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:33 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 939
+Content-Disposition: inline; filename="login.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/js/nav_sidebar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:33 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 1360
+Content-Disposition: inline; filename="nav_sidebar.js"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/nav_sidebar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:33 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 2271
+Content-Disposition: inline; filename="nav_sidebar.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/base.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:33 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 19513
+Content-Disposition: inline; filename="base.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /admin/logout/%09django.contrib.admin.sites.logout%09admin:logout HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 302 Found
+Date: Tue, 10 Aug 2021 12:10:34 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Location: /admin/login/?next=/admin/logout/%2509django.contrib.admin.sites.logout%2509admin%3Alogout
+Expires: Tue, 10 Aug 2021 12:10:34 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Server-Timing: TimerPanel_utime;dur=11.191999999999425;desc="User CPU time", TimerPanel_stime;dur=3.9329999999999643;desc="System CPU time", TimerPanel_total;dur=15.124999999999389;desc="Total CPU time", TimerPanel_total_time;dur=15.813827514648438;desc="Elapsed time", SQLPanel_sql_time;dur=0.05793571472167969;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 0
+Vary: Cookie
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+
+GET /admin/login/?next=/admin/logout/%2509django.contrib.admin.sites.logout%2509admin%3Alogout HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:34 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Expires: Tue, 10 Aug 2021 12:10:34 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Vary: Cookie
+Server-Timing: TimerPanel_utime;dur=19.529999999999603;desc="User CPU time", TimerPanel_stime;dur=3.9599999999999635;desc="System CPU time", TimerPanel_total;dur=23.48999999999957;desc="Total CPU time", TimerPanel_total_time;dur=24.12867546081543;desc="Elapsed time", SQLPanel_sql_time;dur=0.034332275390625;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 13311
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Set-Cookie:  csrftoken=LG1udUHNrEWpeLBrtaID8n3Y7TyfAMsZ697FAAOZrKmwRcl9dvVBcoI7FB2XOsm1; expires=Tue, 09 Aug 2022 12:10:34 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+
+
+GET /static/debug_toolbar/js/toolbar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:34 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 10452
+Content-Disposition: inline; filename="toolbar.js"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/toolbar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:34 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 11461
+Content-Disposition: inline; filename="toolbar.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/print.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:34 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 43
+Content-Disposition: inline; filename="print.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/admin/css/responsive.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:34 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 18545
+Content-Disposition: inline; filename="responsive.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/login.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:34 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 939
+Content-Disposition: inline; filename="login.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/js/nav_sidebar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:34 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 1360
+Content-Disposition: inline; filename="nav_sidebar.js"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/nav_sidebar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:34 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 2271
+Content-Disposition: inline; filename="nav_sidebar.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/base.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:34 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 19513
+Content-Disposition: inline; filename="base.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /admin/mainapp/product/%09django.contrib.admin.options.changelist_view%09admin:mainapp_product_changelist HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 302 Found
+Date: Tue, 10 Aug 2021 12:10:34 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Location: /admin/login/?next=/admin/mainapp/product/%2509django.contrib.admin.options.changelist_view%2509admin%3Amainapp_product_changelist
+Expires: Tue, 10 Aug 2021 12:10:34 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Server-Timing: TimerPanel_utime;dur=7.701000000000846;desc="User CPU time", TimerPanel_stime;dur=3.7120000000001596;desc="System CPU time", TimerPanel_total;dur=11.413000000001006;desc="Total CPU time", TimerPanel_total_time;dur=11.887073516845703;desc="Elapsed time", SQLPanel_sql_time;dur=0.03790855407714844;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 0
+Vary: Cookie
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+
+GET /admin/login/?next=/admin/mainapp/product/%2509django.contrib.admin.options.changelist_view%2509admin%3Amainapp_product_changelist HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:34 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Expires: Tue, 10 Aug 2021 12:10:34 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Vary: Cookie
+Server-Timing: TimerPanel_utime;dur=21.748000000000545;desc="User CPU time", TimerPanel_stime;dur=0.0;desc="System CPU time", TimerPanel_total;dur=21.748000000000545;desc="Total CPU time", TimerPanel_total_time;dur=22.40467071533203;desc="Elapsed time", SQLPanel_sql_time;dur=0.03457069396972656;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 13390
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Set-Cookie:  csrftoken=ZhTQ9xvAP7IffYybh6TgpvdTfrGDxp0aXa4jU8C0kfvCBTsoN5kM3HMaEkvXWhzd; expires=Tue, 09 Aug 2022 12:10:34 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+
+
+GET /static/debug_toolbar/js/toolbar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:34 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 10452
+Content-Disposition: inline; filename="toolbar.js"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/toolbar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:34 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 11461
+Content-Disposition: inline; filename="toolbar.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/print.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:34 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 43
+Content-Disposition: inline; filename="print.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/admin/css/responsive.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:34 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 18545
+Content-Disposition: inline; filename="responsive.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/login.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:34 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 939
+Content-Disposition: inline; filename="login.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/js/nav_sidebar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:34 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 1360
+Content-Disposition: inline; filename="nav_sidebar.js"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/nav_sidebar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:34 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 2271
+Content-Disposition: inline; filename="nav_sidebar.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/base.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:34 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 19513
+Content-Disposition: inline; filename="base.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /admin/mainapp/product/%3Cpath:object_id%3E/%09django.views.generic.base.RedirectView HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 302 Found
+Date: Tue, 10 Aug 2021 12:10:35 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Location: /admin/login/?next=/admin/mainapp/product/%253Cpath%3Aobject_id%253E/%2509django.views.generic.base.RedirectView
+Expires: Tue, 10 Aug 2021 12:10:35 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Server-Timing: TimerPanel_utime;dur=8.124999999999716;desc="User CPU time", TimerPanel_stime;dur=8.132999999999946;desc="System CPU time", TimerPanel_total;dur=16.25799999999966;desc="Total CPU time", TimerPanel_total_time;dur=17.465591430664062;desc="Elapsed time", SQLPanel_sql_time;dur=0.08177757263183594;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 0
+Vary: Cookie
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+
+GET /admin/login/?next=/admin/mainapp/product/%253Cpath%3Aobject_id%253E/%2509django.views.generic.base.RedirectView HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:35 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Expires: Tue, 10 Aug 2021 12:10:35 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Vary: Cookie
+Server-Timing: TimerPanel_utime;dur=21.76699999999876;desc="User CPU time", TimerPanel_stime;dur=0.0;desc="System CPU time", TimerPanel_total;dur=21.76699999999876;desc="Total CPU time", TimerPanel_total_time;dur=22.573232650756836;desc="Elapsed time", SQLPanel_sql_time;dur=0.03552436828613281;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 13352
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Set-Cookie:  csrftoken=U7NcPaH8jsmeOMp7tt8J8rIbYHAzdp3DYIDuoLFvEDIwGIgd6LWcWOZwcShmg80r; expires=Tue, 09 Aug 2022 12:10:35 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+
+
+GET /static/debug_toolbar/js/toolbar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:35 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 10452
+Content-Disposition: inline; filename="toolbar.js"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/toolbar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:35 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 11461
+Content-Disposition: inline; filename="toolbar.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/print.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:35 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 43
+Content-Disposition: inline; filename="print.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/admin/css/responsive.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:35 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 18545
+Content-Disposition: inline; filename="responsive.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/login.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:35 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 939
+Content-Disposition: inline; filename="login.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/js/nav_sidebar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:35 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 1360
+Content-Disposition: inline; filename="nav_sidebar.js"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/nav_sidebar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:35 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 2271
+Content-Disposition: inline; filename="nav_sidebar.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/base.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:35 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 19513
+Content-Disposition: inline; filename="base.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /admin/mainapp/product/%3Cpath:object_id%3E/change/%09django.contrib.admin.options.change_view%09admin:mainapp_product_change HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 302 Found
+Date: Tue, 10 Aug 2021 12:10:35 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Location: /admin/login/?next=/admin/mainapp/product/%253Cpath%3Aobject_id%253E/change/%2509django.contrib.admin.options.change_view%2509admin%3Amainapp_product_change
+Expires: Tue, 10 Aug 2021 12:10:35 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Server-Timing: TimerPanel_utime;dur=11.421000000000348;desc="User CPU time", TimerPanel_stime;dur=0.0;desc="System CPU time", TimerPanel_total;dur=11.421000000000348;desc="Total CPU time", TimerPanel_total_time;dur=11.941671371459961;desc="Elapsed time", SQLPanel_sql_time;dur=0.03743171691894531;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 0
+Vary: Cookie
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+
+GET /admin/login/?next=/admin/mainapp/product/%253Cpath%3Aobject_id%253E/change/%2509django.contrib.admin.options.change_view%2509admin%3Amainapp_product_change HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:35 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/html; charset=utf-8
+Expires: Tue, 10 Aug 2021 12:10:35 GMT
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, private
+Vary: Cookie
+Server-Timing: TimerPanel_utime;dur=23.068999999999562;desc="User CPU time", TimerPanel_stime;dur=0.0;desc="System CPU time", TimerPanel_total;dur=23.068999999999562;desc="Total CPU time", TimerPanel_total_time;dur=23.708820343017578;desc="Elapsed time", SQLPanel_sql_time;dur=0.034332275390625;desc="SQL 1 queries", CachePanel_total_time;dur=0;desc="Cache 0 Calls"
+X-Frame-Options: DENY
+Content-Length: 13436
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Set-Cookie:  csrftoken=ZQSyIQalOwO8IKpe9SwPmAbS7MmOZZn8MvaX9HOPI7Mr0u7yq64SXwQL2Xb0Bnul; expires=Tue, 09 Aug 2022 12:10:35 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+
+
+GET /static/debug_toolbar/js/toolbar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:35 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 10452
+Content-Disposition: inline; filename="toolbar.js"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/toolbar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:35 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 11461
+Content-Disposition: inline; filename="toolbar.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/debug_toolbar/css/print.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:35 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 43
+Content-Disposition: inline; filename="print.css"
+Last-Modified: Tue, 10 Aug 2021 09:21:34 GMT
+
+
+GET /static/admin/css/responsive.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:35 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 18545
+Content-Disposition: inline; filename="responsive.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/login.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:35 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 939
+Content-Disposition: inline; filename="login.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/js/nav_sidebar.js HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:35 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: application/javascript
+Content-Length: 1360
+Content-Disposition: inline; filename="nav_sidebar.js"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/nav_sidebar.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:35 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 2271
+Content-Disposition: inline; filename="nav_sidebar.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
+GET /static/admin/css/base.css HTTP/1.1
+Host: 127.0.0.1:8000
+Cookie: SameSite=Lax
+Accept: */*
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (pc-x86_64-linux-gnu) Siege/4.0.4
+Connection: close
+
+
+HTTP/1.1 200 OK
+Date: Tue, 10 Aug 2021 12:10:35 GMT
+Server: WSGIServer/0.2 CPython/3.8.10
+Content-Type: text/css
+Content-Length: 19513
+Content-Disposition: inline; filename="base.css"
+Last-Modified: Tue, 10 Aug 2021 09:17:29 GMT
+
+
