@@ -35,7 +35,7 @@ def products(request, pk=None, page=1):
 
     categories = ProductCategory.objects.all()
     basket = get_basket(request.user)
-
+    products_paginator = None
     if pk is not None:
         if pk == 0:
             products = Product.objects.all().order_by('price')
